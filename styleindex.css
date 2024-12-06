@@ -1,0 +1,99 @@
+body{
+    background-color:rgb(241, 251, 255);
+}
+.header{
+    width: 1280px;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+}
+/* kode css navigator */
+ul{
+    list-style: none;
+    background-color: rgb(241, 251, 255);
+    padding: 0px 0px;
+    margin: 120px 0px;
+    position: fixed;
+    width: 1280px;
+    height: 70px;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+ul a:hover{
+    background-color: bisque;
+}
+/* kode css dropdown */
+ul li ul.dropdown{
+    background-color: gainsboro;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+/* kode css side bar */
+.test{
+    display: flexbox;
+}
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+/* LEFT COLUMN */
+.column.side{
+    margin: 190px 0px;
+    width: 255px;
+    height: 400px;
+    background-color: rgb(241, 251, 255);
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.galeri{
+    padding-bottom: 5px;
+}
+/* Kode css middle bar */
+.column.middle{
+    margin: 190px 0px;
+    width: 950px;
+    height: 400px;
+    background-color:rgb(241, 251, 255);
+    color: #404040;
+}
+/* kode footer */
+.Footer{
+    width: 1280px;
+    position: fixed;
+    margin: 550px 0px;
+}
+h2{
+    color: #404040;
+}
+li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+li.p {
+    list-style-type: none;
+    margin-left: 38px;
+}
+.content{
+    padding-top: 180px;
+    margin-left: 7px;
+}
+.isi{
+    padding-top: 200px;
+    margin-left: 7px;
+}
+li.k{
+    list-style-type: circle;
+}
